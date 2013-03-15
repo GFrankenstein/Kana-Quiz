@@ -30,7 +30,7 @@
 :%s/Ho/ほ/g
 :%s/Ma/ま/g
 :%s/Mi/み/g
-:%s/Mu/も/g
+:%s/Mu/む/g
 :%s/Me/め/g
 :%s/Mo/も/g
 :%s/Ya/や/g
@@ -76,7 +76,7 @@
 :%s/HO/ホ/g
 :%s/MA/マ/g
 :%s/MI/ミ/g
-:%s/MU/モ/g
+:%s/MU/ム/g
 :%s/ME/メ/g
 :%s/MO/モ/g
 :%s/YA/ヤ/g

@@ -13,12 +13,12 @@ print '\\begin{tabular}{rccc}'
 
 for i in range(23):
 	if (p[i]==0):
-		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{3mm}}&\\framebox[6mm]{\\rule{0pt}{3mm}}\\\\'
+		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{4mm}}&\\framebox[6mm]{\\rule{0pt}{4mm}}\\\\'
 	else:
 		if (p[i]==1):
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{3mm}}\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{4mm}}\\\\'
 		else:
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}}&\\framebox[6mm]{\\rule{0pt}{3mm}}&'+r[i][4:6]+'\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}}&\\framebox[6mm]{\\rule{0pt}{4mm}}&'+r[i][4:6]+'\\\\'
 
 print '\end{tabular}'
 print '\end{center}'
@@ -27,12 +27,12 @@ print '\\begin{tabular}{rccc}'
 
 for i in range(23,46):
 	if (p[i]==0):
-		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{3mm}}&\\framebox[6mm]{\\rule{0pt}{3mm}}\\\\'
+		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{4mm}}&\\framebox[6mm]{\\rule{0pt}{4mm}}\\\\'
 	else:
 		if (p[i]==1):
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{3mm}}\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{4mm}}\\\\'
 		else:
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}}&\\framebox[6mm]{\\rule{0pt}{3mm}}&'+r[i][4:6]+'\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}}&\\framebox[6mm]{\\rule{0pt}{4mm}}&'+r[i][4:6]+'\\\\'
 
 print '\end{tabular}'
 print '\end{center}'
@@ -44,12 +44,12 @@ print '\\begin{tabular}{rccc}'
 
 for i in range(23):
 	if (p[i]==0):
-		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][2:4]+'}&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][4:6]+'}\\\\'
+		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][2:4]+'}&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][4:6]+'}\\\\'
 	else:
 		if (p[i]==1):
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][0:2]+'}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][4:6]+'}\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][0:2]+'}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][4:6]+'}\\\\'
 		else:
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][0:2]+'}&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][2:4]+'}&'+r[i][4:6]+'\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][0:2]+'}&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][2:4]+'}&'+r[i][4:6]+'\\\\'
 
 print '\end{tabular}'
 print '\end{center}'
@@ -58,12 +58,12 @@ print '\\begin{tabular}{rccc}'
 
 for i in range(23,46):
 	if (p[i]==0):
-		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][2:4]+'}&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][4:6]+'}\\\\'
+		print i+1,'&'+r[i][0:2]+'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][2:4]+'}&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][4:6]+'}\\\\'
 	else:
 		if (p[i]==1):
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][0:2]+'}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][4:6]+'}\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][0:2]+'}&'+r[i][2:4]+'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][4:6]+'}\\\\'
 		else:
-			print i+1,'&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][0:2]+'}&\\framebox[6mm]{\\rule{0pt}{3mm}'+r[i][2:4]+'}&'+r[i][4:6]+'\\\\'
+			print i+1,'&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][0:2]+'}&\\framebox[6mm]{\\rule{0pt}{4mm}'+r[i][2:4]+'}&'+r[i][4:6]+'\\\\'
 
 print '\end{tabular}'
 print '\end{center}'
