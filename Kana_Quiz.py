@@ -4,7 +4,7 @@ p=[]
 for i in range(46):
 	p.append(random.randint(0,2))
 
-r=['0a0A a','0i0I i','0u0U u','0e0E e','0o0O o','KaKAka','KiKIki','KuKUku','KeKEke','KoKOko','SaSAsa','SiSIsI','SuSUsu','SeSEse','SoSOso','TaTAta','TiTItI','TuTUtU','TeTEte','ToTOto','NaNAna','NiNIni','NoNOno','NeNEne','NoNOno','HaHAha','HiHIhi','FuFUfu','HeHEhe','HoHOho','MaMAma','MiMImi','MuMUmu','MeMEme','MoMOmo','YaYAya','YuYUyu','YoYOyo','RaRAra','RiRIri','RuRUru','ReREre','RoROro','WaWAwa','1o1Oo*','0n0N n']
+r=['0a0A a','0i0I i','0u0U u','0e0E e','0o0O o','KaKAka','KiKIki','KuKUku','KeKEke','KoKOko','SaSAsa','SiSIsI','SuSUsu','SeSEse','SoSOso','TaTAta','TiTItI','TuTUtU','TeTEte','ToTOto','NaNAna','NiNIni','NuNUnu','NeNEne','NoNOno','HaHAha','HiHIhi','FuFUfu','HeHEhe','HoHOho','MaMAma','MiMImi','MuMUmu','MeMEme','MoMOmo','YaYAya','YuYUyu','YoYOyo','RaRAra','RiRIri','RuRUru','ReREre','RoROro','WaWAwa','1o1Oo*','0n0N n']
 random.shuffle(r)
 
 print '\\begin{multicols}{2}'
