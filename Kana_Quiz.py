@@ -7,6 +7,10 @@ for i in range(46):
 r=['0a0A a','0i0I i','0u0U u','0e0E e','0o0O o','KaKAka','KiKIki','KuKUku','KeKEke','KoKOko','SaSAsa','SiSIsI','SuSUsu','SeSEse','SoSOso','TaTAta','TiTItI','TuTUtU','TeTEte','ToTOto','NaNAna','NiNIni','NuNUnu','NeNEne','NoNOno','HaHAha','HiHIhi','FuFUfu','HeHEhe','HoHOho','MaMAma','MiMImi','MuMUmu','MeMEme','MoMOmo','YaYAya','YuYUyu','YoYOyo','RaRAra','RiRIri','RuRUru','ReREre','RoROro','WaWAwa','1o1Oo*','0n0N n']
 random.shuffle(r)
 
+print '\documentclass[UTF8]{ctexart}'
+print '\usepackage{multicol}'
+print '\pagestyle{empty}'
+print '\\begin{document}'
 print '\\begin{multicols}{2}'
 print '\\begin{center}'
 print '\\begin{tabular}{rccc}'
@@ -68,3 +72,4 @@ for i in range(23,46):
 print '\end{tabular}'
 print '\end{center}'
 print '\end{multicols}'
+print '\end{document}'
